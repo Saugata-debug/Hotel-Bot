@@ -1,17 +1,11 @@
-# SPS-4709-Smart-Restaurant-Bot
+#-Smart-Restaurant-Bot
 
-SMART RESTAURANT BOT
 
-IN THIS PROJECT I HAVE USED WATSON ASSISTANT, TEXT TO SPEECH, CLOUDANT DB FOR STORING CUSTOMER DETAILS OF ORDER AND NODE-RED APPLICATION AS UI
+In this project, I have utilized Watson Assistant, Text to Speech, Cloudant DB for storing customer details, and Node-RED for the user interface.
 
-THIS BOT WILL ASK THE CUSTOMERS FOR THEIR BASIC DETAILS LIKE NAME, EMAIL ID, AND PHONE NUMBER AND IT HAS ALSO CAPABLITIES TO SHOW THE MENU AND ASLO CAN DISPLAY THE OFFERS OF THE DAY
+This bot interacts with customers by asking for their basic details such as name, email ID, and phone number. It also has the capability to display the menu and daily offers.
 
-IT CAN ALSO TAKE THE ORDERS OF CUSTOMER AND PING THEM WHEN ORDER WILL BE READY
+The bot can take customer orders and notify them when their order is ready. All customer details and interactions are stored in the Cloudant database. This allows the restaurant to access the information to process orders and gather customer feedback. Once the restaurant confirms that an order is complete, the bot will automatically notify the customer that their order is ready.
 
-IT WILL STORE ALL THE DETAILS ASKED IN THE BOT INTO THE CLOUDANT DATABASE SO THAT IT CAN PROVIDE CUSTOMER FEEDBACK ALSO THE DATABASE CAN U FETCHED BY THE RESTAURANT FOR MAKING THE ORDER AND ONCE THE RESTAURANT CHECKS THAT ORDER IS COMPLETE
-AUTOMATICALLLY, THE CUSTOMER WILL KNOW THAT ORDER IS READY.
 
-THE UI DEMOSTRATION OF THE PROJECT IS UPLOADED ON YOUTUBE. BELOW IS LINK OF VIDEO
-
-LINK:https://youtu.be/oMj4mviYmzQ
 
